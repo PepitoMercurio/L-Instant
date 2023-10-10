@@ -6,7 +6,7 @@ import "../../Style/scss/Card/style.scss"
 export default function Card() {
     return (
         <div className="Card">
-            <img src="https://images.cnrs.fr/system/files/styles/full_width_mobile/private/media/images/2011/07/CNRS_20110001_1937_683.jpg?h=b8e51141&itok=D7vgv8W2" alt="image"/>
+            <img src="https://images.cnrs.fr/system/files/styles/full_width_mobile/private/media/images/2011/07/CNRS_20110001_1937_683.jpg?h=b8e51141&itok=D7vgv8W2" alt="Image CNRS"/>
             <div className="icons">
                 <FontAwesomeIcon className="Card-download" icon={faDownload} />
                 <FontAwesomeIcon className="Card-Like" icon={faHeart} />
