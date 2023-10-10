@@ -31,7 +31,7 @@ export default function Card(props) {
 
     return (
         <div className="Card" onClick={handleCardClick}>
-            <img src={imageUrl} alt={props.alt}/>
+            <img src={imageUrl} alt={props.id}/>
             <div className="icons">
             <FontAwesomeIcon className="Card-download" icon={faDownload} onClick={handleDownload} />
                 <FontAwesomeIcon className="Card-Like" icon={faHeart} />

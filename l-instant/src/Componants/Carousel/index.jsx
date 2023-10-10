@@ -22,7 +22,7 @@ export default function Carousel() {
     return (
         <div className="Carousel">
             {images.map((image) => (
-                <Card imageName={image.image} id={image.id} alt={"image : " + image.image}/>
+                <Card imageName={image.image} id={image.id}/>
             ))}
         </div>
     )
