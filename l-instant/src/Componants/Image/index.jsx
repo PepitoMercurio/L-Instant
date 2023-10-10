@@ -21,7 +21,7 @@ export default function Image() {
         };
 
         fetchImage();
-    }, []);
+    }, [id]);
 
     const handleShare = () => {
         const currentURL = window.location.href;
