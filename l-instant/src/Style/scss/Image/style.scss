@@ -1,0 +1,43 @@
+.Image {
+    width: 100vw;
+    position: relative;
+    height: 100%;
+
+    img {
+        width: 100%;
+        z-index: 1;
+        box-shadow: 1px 5px 10px black;
+    }
+
+    .icons {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        font-size: 25px;
+    }
+
+    svg {
+        position: absolute;
+    }
+
+    .Card-download {
+        top: 1rem;
+        left: 1rem;
+        color: black;
+    }
+
+    .Card-Like {
+        top: 1rem;
+        right: 1rem;
+        color: #FE5A47;
+        font-size: 40px;
+    }
+
+    .Card-Share {
+        bottom: 1rem;
+        left: 1rem;
+        color: #2d2d2d
+    }
+}
