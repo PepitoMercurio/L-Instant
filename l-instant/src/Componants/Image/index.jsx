@@ -43,7 +43,7 @@ export default function Image() {
     return (
         <div className="Image">
             {imageData ? (
-                <img src={`http://localhost:3001/image/${imageData.image}`} alt="Image" />
+                <img src={`http://localhost:3001/image/${imageData.image}`} alt={imageData.id} />
             ) : (
                 <div className="loading">Chargement en cours...</div>
             )}

@@ -22,7 +22,7 @@ export default function List() {
     return (
         <div className="List">
             {images.map((image) => (
-                <Card imageName={image.image} id={image.id} alt={image.id}/>
+                <Card imageName={image.image} id={image.id} alt={"image number " + image.id}/>
             ))}
         </div>
     )
